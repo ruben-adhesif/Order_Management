@@ -1,0 +1,214 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Mon Dec 11 14:31:45 2023
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   sqlldr/product.ctl
+Data File:      data/productvendor.csv
+  Bad File:     sqlldr/log/productvendor.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PRODUCTVENDOR, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PRODUCTID                           FIRST     *   ;       CHARACTER            
+BUSINESSENTITYID                     NEXT     *   ;       CHARACTER            
+AVERAGELEADTIME                      NEXT     *   ;       CHARACTER            
+STANDARDPRICE                        NEXT     *   ;       CHARACTER            
+LASTRECEIPTCOST                      NEXT     *   ;       CHARACTER            
+LASTRECEIPTDATE                      NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
+MINORDERQTY                          NEXT     *   ;       CHARACTER            
+MAXORDERQTY                          NEXT     *   ;       CHARACTER            
+ONORDERQTY                           NEXT     *   ;       CHARACTER            
+UNITMEASURECODE                      NEXT     *   ;       CHARACTER            
+MODIFIEDDATE                         NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
+
+Record 1: Rejected - Error on table PRODUCTVENDOR, column PRODUCTID.
+ORA-01722: invalid number
+
+Record 6: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 8: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 10: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 11: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 13: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 14: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 16: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 17: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 19: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 20: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 26: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 27: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 29: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 30: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 32: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 33: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 35: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 36: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 38: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 39: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 41: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 42: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 44: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 45: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 47: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 48: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 50: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 51: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 53: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 55: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 58: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 60: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 63: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 65: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 67: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 69: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 71: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 73: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 75: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 77: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 79: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 81: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 83: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 85: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 87: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 89: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 91: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 93: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 95: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+Record 96: Rejected - Error on table PRODUCTVENDOR.
+ORA-00001: unique constraint (SYSTEM.SYS_C008472) violated
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table PRODUCTVENDOR:
+  45 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 709500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           250
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Mon Dec 11 14:31:45 2023
+Run ended on Mon Dec 11 14:31:45 2023
+
+Elapsed time was:     00:00:00.17
+CPU time was:         00:00:00.03

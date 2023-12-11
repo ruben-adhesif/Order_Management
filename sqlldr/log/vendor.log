@@ -1,0 +1,58 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Mon Dec 11 14:31:45 2023
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   sqlldr/vendor.ctl
+Data File:      data/vendor.csv
+  Bad File:     sqlldr/log/vendor.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table VENDOR, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+BUSINESSENTITYID                    FIRST     *   ;       CHARACTER            
+ACCOUNTNUMBER                        NEXT     *   ;       CHARACTER            
+NAME                                 NEXT     *   ;       CHARACTER            
+CREDITRATING                         NEXT     *   ;       CHARACTER            
+PREFERREDVENDORSTATUS                NEXT     1   ;       CHARACTER            
+ACTIVEFLAG                           NEXT     1   ;       CHARACTER            
+PURCHASINGWEBSERVICEURL              NEXT     *   ;       CHARACTER            
+MODIFIEDDATE                         NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
+
+Record 1: Rejected - Error on table VENDOR, column PREFERREDVENDORSTATUS.
+Field in data file exceeds maximum length
+
+Table VENDOR:
+  104 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 389000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           105
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Mon Dec 11 14:31:45 2023
+Run ended on Mon Dec 11 14:31:45 2023
+
+Elapsed time was:     00:00:00.14
+CPU time was:         00:00:00.00

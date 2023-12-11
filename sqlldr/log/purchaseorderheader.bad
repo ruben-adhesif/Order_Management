@@ -1,0 +1,2 @@
+purchaseorderid;revisionnumber;status;employeeid;vendorid;shipmethodid;orderdate;shipdate;subtotal;taxamt;freight;modifieddate
+18;4;4;256;1692;5;2011-12-15 00:00:00.000;2011-12-24 00:00:00.000;16393.23 1311.4584;409.8308;2011-12-24 00:00:00.000

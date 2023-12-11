@@ -1,0 +1,66 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Mon Dec 11 14:31:45 2023
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   sqlldr/header.ctl
+Data File:      data/purchaseorderheader.csv
+  Bad File:     sqlldr/log/purchaseorderheader.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PURCHASEORDERHEADER, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PURCHASEORDERID                     FIRST     *   ;       CHARACTER            
+REVISIONNUMBER                       NEXT     *   ;       CHARACTER            
+STATUS                               NEXT     *   ;       CHARACTER            
+EMPLOYEEID                           NEXT     *   ;       CHARACTER            
+VENDORID                             NEXT     *   ;       CHARACTER            
+SHIPMETHODID                         NEXT     *   ;       CHARACTER            
+ORDERDATE                            NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
+SHIPDATE                             NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
+SUBTOTAL                             NEXT     *   ;       CHARACTER            
+TAXAMT                               NEXT     *   ;       CHARACTER            
+FREIGHT                              NEXT     *   ;       CHARACTER            
+MODIFIEDDATE                         NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
+
+Record 1: Rejected - Error on table PURCHASEORDERHEADER, column PURCHASEORDERID.
+ORA-01722: invalid number
+
+Record 19: Rejected - Error on table PURCHASEORDERHEADER, column SUBTOTAL.
+ORA-01722: invalid number
+
+
+Table PURCHASEORDERHEADER:
+  4011 Rows successfully loaded.
+  2 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 774000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          4013
+Total logical records rejected:         2
+Total logical records discarded:        0
+
+Run began on Mon Dec 11 14:31:45 2023
+Run ended on Mon Dec 11 14:31:46 2023
+
+Elapsed time was:     00:00:00.28
+CPU time was:         00:00:00.00
