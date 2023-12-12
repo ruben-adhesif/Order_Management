@@ -13,10 +13,6 @@ def initialisation(csv_file):
     df.columns = df.columns.str.strip()
     df = df.apply(lambda x: x.str.strip() if x.dtype == 'object' else x)
     return df
-  
-def del_millisec(df, date):
-    #df[date] = pd.to_datetime(df[date]).dt.floor('s')
-    return df
 
 def convert_bool(df, bool):
     df[bool] = df[bool].replace('true', 'T')
@@ -30,26 +26,18 @@ def update(df, csv_file):
 
 csv_file = 'productvendor.csv'
 df = initialisation(csv_file)
-df = del_millisec(df, 'lastreceiptdate')
-df = del_millisec(df, 'modifieddate')
 update(df, csv_file)
 
 csv_file = 'purchaseorderdetail.csv'
 df = initialisation(csv_file)
-df = del_millisec(df, 'duedate')
-df = del_millisec(df, 'modifieddate')
 update(df, csv_file)
 
 csv_file = 'purchaseorderheader.csv'
 df = initialisation(csv_file)
-df = del_millisec(df, 'orderdate')
-df = del_millisec(df, 'shipdate')
-df = del_millisec(df, 'modifieddate')
 update(df, csv_file)
 
 csv_file = 'vendor.csv'
 df = initialisation(csv_file)
-df = del_millisec(df, 'modifieddate')
 df = convert_bool(df, 'preferredvendorstatus')
 df = convert_bool(df, 'activeflag')
 update(df, csv_file)

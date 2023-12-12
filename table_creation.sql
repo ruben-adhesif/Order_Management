@@ -1,4 +1,4 @@
--- sqlplus system/root@xepdb1 @table_creation
+-- sqlplus ruben/root@xepdb1 @table_creation
 
 CREATE TABLE vendor (
     businessentityid INT PRIMARY KEY,

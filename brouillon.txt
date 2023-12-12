@@ -1,4 +1,0 @@
-Suppr pas stp
-
-
-OPTIONS (SKIP=1)

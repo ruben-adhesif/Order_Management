@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 21.0.0.0.0 - Production on Mon Dec 11 14:31:46 2023
+SQL*Loader: Release 21.0.0.0.0 - Production on Tue Dec 12 10:51:36 2023
 Version 21.3.0.0.0
 
 Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
@@ -38,154 +38,154 @@ Record 1: Rejected - Error on table PURCHASEORDERDETAIL, column PURCHASEORDERID.
 ORA-01722: invalid number
 
 Record 5: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 7: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 8: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 12: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 13: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 14: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 15: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 16: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 17: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 18: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 19: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 20: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 21: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 25: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 26: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 27: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 28: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 29: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 33: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 34: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 36: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 37: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 38: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 39: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 40: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 41: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 42: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 43: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 44: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 45: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 46: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 47: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 48: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 51: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 52: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 53: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 55: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 56: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 59: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 60: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 61: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 68: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 69: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 71: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 72: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 73: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 74: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 75: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 76: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 Record 77: Rejected - Error on table PURCHASEORDERDETAIL.
-ORA-02291: integrity constraint (SYSTEM.SYS_C008477) violated - parent key not found
+ORA-02291: integrity constraint (RUBEN.SYS_C008512) violated - parent key not found
 
 
 MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
@@ -205,8 +205,8 @@ Total logical records read:           250
 Total logical records rejected:        51
 Total logical records discarded:        0
 
-Run began on Mon Dec 11 14:31:46 2023
-Run ended on Mon Dec 11 14:31:46 2023
+Run began on Tue Dec 12 10:51:36 2023
+Run ended on Tue Dec 12 10:51:36 2023
 
-Elapsed time was:     00:00:00.20
-CPU time was:         00:00:00.06
+Elapsed time was:     00:00:00.21
+CPU time was:         00:00:00.01
