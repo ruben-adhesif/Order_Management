@@ -12,7 +12,7 @@ CREATE TABLE vendor (
 );
 
 CREATE TABLE productvendor (
-    productid INT PRIMARY KEY,
+    productid INT,
     businessentityid INT,
     averageleadtime INT,
     standardprice DECIMAL(10, 2),
@@ -23,6 +23,7 @@ CREATE TABLE productvendor (
     onorderqty INT,
     unitmeasurecode VARCHAR2(3),
     modifieddate TIMESTAMP,
+    CONSTRAINT productvendor_primary_key PRIMARY KEY (productid, businessentityid),
     FOREIGN KEY (businessentityid) REFERENCES vendor(businessentityid)
 );
 
@@ -51,8 +52,8 @@ CREATE TABLE purchaseorderdetail (
     receivedqty DECIMAL(10, 2),
     rejectedqty DECIMAL(10, 2),
     modifieddate TIMESTAMP,
-    FOREIGN KEY (purchaseorderid) REFERENCES purchaseorderheader(purchaseorderid),
-    FOREIGN KEY (productid) REFERENCES productvendor(productid)
+    --FOREIGN KEY (productid) REFERENCES productvendor(productid),
+    FOREIGN KEY (purchaseorderid) REFERENCES purchaseorderheader(purchaseorderid)
 );
 
 EXIT

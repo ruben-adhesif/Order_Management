@@ -1,0 +1,59 @@
+@startuml schema
+
+class vendor {
+    + businessentityid : INT [PK]
+    + accountnumber : VARCHAR2
+    + name : VARCHAR2
+    + creditrating : INT
+    + preferredvendorstatus : BOOL
+    + activeflag : BOOL
+    + purchasingwebserviceurl : VARCHAR2
+    + modifieddate : TIMESTAMP
+}
+
+class productvendor {
+    + productid : INT [PK]
+    + businessentityid : INT [PK]
+    + averageleadtime : INT
+    + standardprice : DECIMAL
+    + lastreceiptcost : DECIMAL
+    + lastreceiptdate : TIMESTAMP
+    + minorderqty : INT
+    + maxorderqty : INT
+    + onorderqty : INT
+    + unitmeasurecode : CHAR2
+    + modifieddate : TIMESTAMP
+}
+
+class purchaseorderheader {
+    + purchaseorderid : INT [PK]
+    + revisionnumber : INT
+    + status : INT
+    + employeeid : INT
+    + vendorid : INT
+    + shipmethodid : INT
+    + orderdate : TIMESTAMP
+    + shipdate : TIMESTAMP
+    + subtotal : DECIMAL
+    + taxamt : DECIMAL
+    + freight : DECIMAL
+    + modifieddate : TIMESTAMP
+}
+
+class purchaseorderdetail {
+    + purchaseorderdetailid : INT [PK]
+    + purchaseorderid : INT
+    + duedate : TIMESTAMP
+    + orderqty : INT
+    + productid : INT
+    + unitprice : DECIMAL
+    + receivedqty : DECIMAL
+    + rejectedqty : DECIMAL
+    + modifieddate : TIMESTAMP
+}
+
+vendor "1" <-- "0..n" productvendor : businessentityid
+purchaseorderheader "1" <-- "0..n" purchaseorderdetail : purchaseorderid
+productvendor "1" <-- "0..n" purchaseorderdetail : productid
+
+@enduml

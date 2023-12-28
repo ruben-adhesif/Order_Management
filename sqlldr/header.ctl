@@ -1,3 +1,4 @@
+OPTIONS (SKIP=1)
 LOAD DATA
 INFILE 'data/purchaseorderheader.csv'
 BADFILE 'sqlldr/log/purchaseorderheader.bad'

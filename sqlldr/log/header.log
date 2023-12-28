@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 21.0.0.0.0 - Production on Tue Dec 12 10:51:36 2023
+SQL*Loader: Release 21.0.0.0.0 - Production on Thu Dec 28 01:54:52 2023
 Version 21.3.0.0.0
 
 Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
@@ -12,7 +12,7 @@ Data File:      data/purchaseorderheader.csv
  (Allow all discards)
 
 Number to load: ALL
-Number to skip: 0
+Number to skip: 1
 Errors allowed: 50
 Bind array:     250 rows, maximum of 1048576 bytes
 Continuation:    none specified
@@ -37,16 +37,10 @@ TAXAMT                               NEXT     *   ;       CHARACTER
 FREIGHT                              NEXT     *   ;       CHARACTER            
 MODIFIEDDATE                         NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
 
-Record 1: Rejected - Error on table PURCHASEORDERHEADER, column PURCHASEORDERID.
-ORA-01722: invalid number
-
-Record 19: Rejected - Error on table PURCHASEORDERHEADER, column SUBTOTAL.
-ORA-01722: invalid number
-
 
 Table PURCHASEORDERHEADER:
-  4011 Rows successfully loaded.
-  2 Rows not loaded due to data errors.
+  4012 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
   0 Rows not loaded because all WHEN clauses were failed.
   0 Rows not loaded because all fields were null.
 
@@ -54,13 +48,13 @@ Table PURCHASEORDERHEADER:
 Space allocated for bind array:                 774000 bytes(250 rows)
 Read   buffer bytes: 1048576
 
-Total logical records skipped:          0
-Total logical records read:          4013
-Total logical records rejected:         2
+Total logical records skipped:          1
+Total logical records read:          4012
+Total logical records rejected:         0
 Total logical records discarded:        0
 
-Run began on Tue Dec 12 10:51:36 2023
-Run ended on Tue Dec 12 10:51:36 2023
+Run began on Thu Dec 28 01:54:52 2023
+Run ended on Thu Dec 28 01:54:52 2023
 
-Elapsed time was:     00:00:00.31
-CPU time was:         00:00:00.03
+Elapsed time was:     00:00:00.28
+CPU time was:         00:00:00.01
