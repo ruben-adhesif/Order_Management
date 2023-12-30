@@ -1,28 +1,28 @@
 
-SQL*Loader: Release 19.0.0.0.0 - Production on Jeu. D‚c. 28 17:53:33 2023
-Version 19.3.0.0.0
+SQL*Loader: Release 21.0.0.0.0 - Production on Sat Dec 30 23:15:01 2023
+Version 21.3.0.0.0
 
-Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
 
-Fichier de contr“le :   sqlldr/vendor.ctl
-Fichier de donn‚es :      data/vendor.csv
-  Fichier des enregistrements refus‚s :     sqlldr/log/vendor.bad
-  Fichier de rebut :  aucune sp‚cification
+Control File:   sqlldr/vendor.ctl
+Data File:      data/vendor.csv
+  Bad File:     sqlldr/bad/vendor.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
 
- (Allouer tous les rebuts)
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
 
-Nombre … charger : ALL
-Nombre … ignorer : 1
-Erreurs autoris‚s : 50
-Tableau de variables :     250 lignes, maximum de 1048576 octets
-Continuation :    aucune sp‚cification
-Chemin utilis‚:      Classique
+Table VENDOR, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
 
-Table VENDOR, charg‚ … partir de chaque enregistrement physique.
-Option d'insertion en vigueur pour cette table : INSERT
-option TRAILING NULLCOLS effective
-
-   Nom de colonne                  Position   Long  Type de donn‚es encadr.
+   Column Name                  Position   Len  Term Encl Datatype
 ------------------------------ ---------- ----- ---- ---- ---------------------
 BUSINESSENTITYID                    FIRST     *   ;       CHARACTER            
 ACCOUNTNUMBER                        NEXT     *   ;       CHARACTER            
@@ -34,23 +34,23 @@ PURCHASINGWEBSERVICEURL              NEXT     *   ;       CHARACTER
 MODIFIEDDATE                         NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
 
 
-Table VENDOR :
-  Chargement de 104 Lignes effectu‚.
-  0 Lignes : chargement impossible d– … des erreurs de donn‚es.
-  0 Lignes : chargement impossible car ‚chec de toutes les clauses WHEN.
-  0 Lignes : chargement impossible car tous les champs ‚taient non renseign‚s.
+Table VENDOR:
+  104 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
 
 
-Espace affect‚ au tableau de variables :                 389000 octets(250 lignes)
-Octets de tampon de lecture : 1048576
+Space allocated for bind array:                 389000 bytes(250 rows)
+Read   buffer bytes: 1048576
 
-Nombre total d'enregistrements logiques ignor‚s :          1
-Nombre total d'enregistrements logiques lus :           104
-Nombre total d'enregistrements logiques rejet‚s :         0
-Nombre total d'enregistrements logiques mis au rebut :        0
+Total logical records skipped:          1
+Total logical records read:           104
+Total logical records rejected:         0
+Total logical records discarded:        0
 
-Le d‚but de l'ex‚cution a ‚t‚ effectu‚ sur Jeu. D‚c.  28 17:53:33 2023
-La fin de l'ex‚cution a ‚t‚ effectu‚e sur Jeu. D‚c.  28 17:53:38 2023
+Run began on Sat Dec 30 23:15:01 2023
+Run ended on Sat Dec 30 23:15:02 2023
 
-Temps ‚coul‚ (ELAPSED) :     00:00:05.72
-Temps processeur (CPU) :    00:00:00.26
+Elapsed time was:     00:00:01.25
+CPU time was:         00:00:00.03

@@ -1,5 +1,10 @@
--- sqlplus ruben/root@xepdb1 @table_creation
+-- Table DROP
+DROP TABLE purchaseorderdetail;
+DROP TABLE purchaseorderheader;
+DROP TABLE productvendor;
+DROP TABLE vendor;
 
+-- Table Creation
 CREATE TABLE vendor (
     businessentityid INT PRIMARY KEY,
     accountnumber VARCHAR(50),
