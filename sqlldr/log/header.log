@@ -1,28 +1,28 @@
 
-SQL*Loader: Release 21.0.0.0.0 - Production on Thu Dec 28 17:39:13 2023
-Version 21.3.0.0.0
+SQL*Loader: Release 19.0.0.0.0 - Production on Jeu. D‚c. 28 17:53:57 2023
+Version 19.3.0.0.0
 
-Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
 
-Control File:   sqlldr/header.ctl
-Data File:      data/purchaseorderheader.csv
-  Bad File:     sqlldr/log/purchaseorderheader.bad
-  Discard File:  none specified
- 
- (Allow all discards)
+Fichier de contr“le :   sqlldr/header.ctl
+Fichier de donn‚es :      data/purchaseorderheader.csv
+  Fichier des enregistrements refus‚s :     sqlldr/log/purchaseorderheader.bad
+  Fichier de rebut :  aucune sp‚cification
 
-Number to load: ALL
-Number to skip: 1
-Errors allowed: 50
-Bind array:     250 rows, maximum of 1048576 bytes
-Continuation:    none specified
-Path used:      Conventional
+ (Allouer tous les rebuts)
 
-Table PURCHASEORDERHEADER, loaded from every logical record.
-Insert option in effect for this table: INSERT
-TRAILING NULLCOLS option in effect
+Nombre … charger : ALL
+Nombre … ignorer : 1
+Erreurs autoris‚s : 50
+Tableau de variables :     250 lignes, maximum de 1048576 octets
+Continuation :    aucune sp‚cification
+Chemin utilis‚:      Classique
 
-   Column Name                  Position   Len  Term Encl Datatype
+Table PURCHASEORDERHEADER, charg‚ … partir de chaque enregistrement physique.
+Option d'insertion en vigueur pour cette table : INSERT
+option TRAILING NULLCOLS effective
+
+   Nom de colonne                  Position   Long  Type de donn‚es encadr.
 ------------------------------ ---------- ----- ---- ---- ---------------------
 PURCHASEORDERID                     FIRST     *   ;       CHARACTER            
 REVISIONNUMBER                       NEXT     *   ;       CHARACTER            
@@ -37,24 +37,178 @@ TAXAMT                               NEXT     *   ;       CHARACTER
 FREIGHT                              NEXT     *   ;       CHARACTER            
 MODIFIEDDATE                         NEXT     *   ;       DATETIME YYYY-MM-DD HH24:MI:SS.FF
 
+Enregistrement 1 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
 
-Table PURCHASEORDERHEADER:
-  4012 Rows successfully loaded.
-  0 Rows not loaded due to data errors.
-  0 Rows not loaded because all WHEN clauses were failed.
-  0 Rows not loaded because all fields were null.
+Enregistrement 2 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 3 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 4 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 5 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 6 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 7 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 8 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 9 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 10 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 11 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 12 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 13 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 14 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 15 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 16 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 17 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 18 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 19 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 20 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 21 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 22 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 23 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 24 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 25 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 26 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 27 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 28 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 29 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 30 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 31 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 32 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 33 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 34 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 35 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 36 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 37 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 38 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 39 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 40 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 41 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 42 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 43 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 44 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 45 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 46 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 47 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 48 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 49 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 50 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+Enregistrement 51 : Rejet‚ - Erreur sur table PURCHASEORDERHEADER, colonne SUBTOTAL.
+ORA-01722: Nombre non valide
+
+\\MAXIMUM ERROR COUNT EXCEEDED - Les statistiques donn‚es ci-dessus r‚sultent d'une ex‚cution partielle.
+
+Table PURCHASEORDERHEADER :
+  Chargement de 0 Lignes effectu‚.
+  51 Lignes : chargement impossible d– … des erreurs de donn‚es.
+  0 Lignes : chargement impossible car ‚chec de toutes les clauses WHEN.
+  0 Lignes : chargement impossible car tous les champs ‚taient non renseign‚s.
 
 
-Space allocated for bind array:                 774000 bytes(250 rows)
-Read   buffer bytes: 1048576
+Espace affect‚ au tableau de variables :                 774000 octets(250 lignes)
+Octets de tampon de lecture : 1048576
 
-Total logical records skipped:          1
-Total logical records read:          4012
-Total logical records rejected:         0
-Total logical records discarded:        0
+Nombre total d'enregistrements logiques ignor‚s :          1
+Nombre total d'enregistrements logiques lus :           250
+Nombre total d'enregistrements logiques rejet‚s :        51
+Nombre total d'enregistrements logiques mis au rebut :        0
 
-Run began on Thu Dec 28 17:39:13 2023
-Run ended on Thu Dec 28 17:39:13 2023
+Le d‚but de l'ex‚cution a ‚t‚ effectu‚ sur Jeu. D‚c.  28 17:53:57 2023
+La fin de l'ex‚cution a ‚t‚ effectu‚e sur Jeu. D‚c.  28 17:53:58 2023
 
-Elapsed time was:     00:00:00.55
-CPU time was:         00:00:00.08
+Temps ‚coul‚ (ELAPSED) :     00:00:01.02
+Temps processeur (CPU) :    00:00:00.22
